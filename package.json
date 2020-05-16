@@ -1,15 +1,16 @@
 {
-  "name": "nextjs",
-  "version": "0.1.0",
   "private": true,
+  "name": "nextjs",
+  "license": "UNLICENSED",
+  "version": "0.1.0",
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
+    "dev": "next dev",
     "start": "next start"
   },
   "dependencies": {
-    "next": "^9.3.3",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "next": "^9.4.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }

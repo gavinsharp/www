@@ -1,7 +1,8 @@
 import React from 'react';
 import App from 'next/app';
 
-import '../styles.css';
+import '@goproperly/linoleum/style/main.scss';
+import '@goproperly/linoleum/fonts/fonts.scss';
 
 export default class CustomApp extends App {
   render() {

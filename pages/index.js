@@ -20,8 +20,6 @@ const Main = styled.main`
   align-items: center;
 `;
 
-const Heading = styled.h1``;
-
 const Home = () => (
   <Container>
     <Head>
@@ -29,7 +27,7 @@ const Home = () => (
     </Head>
 
     <Main>
-      <Heading>Hello World</Heading>
+      <h1>Hello World</h1>
 
       <p>
         Get started by editing <code>pages/index.js</code>

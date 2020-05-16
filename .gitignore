@@ -1,16 +1,14 @@
-# dependencies
+# Dependencies
 /node_modules
 
-# next.js
+# Next.js
 /.next/
 /out/
 !public/
 
-# production
-/build
-
-# misc
+# Misc
 .DS_Store
+.eslintcache
 
 # Environment Variables
 .env

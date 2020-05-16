@@ -1,4 +1,5 @@
-import Head from 'next/head'
+import React from 'react';
+import Head from 'next/head';
 
 const Home = () => (
   <div className="container">
@@ -7,9 +8,7 @@ const Home = () => (
     </Head>
 
     <main>
-      <h1 className="title">
-        Hello World
-      </h1>
+      <h1 className="title">Hello World</h1>
 
       <p className="description">
         Get started by editing <code>pages/index.js</code>
@@ -66,6 +65,6 @@ const Home = () => (
       }
     `}</style>
   </div>
-)
+);
 
-export default Home
+export default Home;

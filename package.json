@@ -6,11 +6,29 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
     "start": "next start"
   },
   "dependencies": {
     "next": "^9.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@goproperly/eslint-config-properly-react": "^2.1.2",
+    "eslint": "^7.0.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.2",
+    "prettier": "^2.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
   }
 }
